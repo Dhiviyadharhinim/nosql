@@ -1,1 +1,153 @@
-
+127.0.0.1:6379> SADD PASSENGER_DETAILS : name ramya siva kavin deepika
+(integer) 0
+127.0.0.1:6379> SADD PASSENGER_DETAILS : sex female male male female
+(integer) 0
+127.0.0.1:6379> SADD PASSENGER_DETAILS : age 20 43 35 25
+(integer) 2
+127.0.0.1:6379> SADD PASSENGER_DETAILS : staring_point chennai delhi hyderabad cochin
+(integer) 2
+127.0.0.1:6379> SADD PASSENGER_DETAILS : landing_point kolkata newyork pune calicut
+(integer) 3
+127.0.0.1:6379> SADD PASSENGER_DETAILS : date 20/02/2023 01/03/2023 28/02/2023 10/03/2023
+(integer) 3
+127.0.0.1:6379> SADD PASSENGER_DETAILS : seat_no 20 2 16 37
+(integer) 4
+127.0.0.1:6379> SADD PASSENGER_DETAILS : class business business economy first
+(integer) 3
+127.0.0.1:6379> SADD PASSENGER_DETAILS : food noneed need need need
+(integer) 3
+127.0.0.1:6379> SADD PASSENGER_DETAILS : contact_no 9788828814 9965631866 9538264743 9836218453
+(integer) 5
+127.0.0.1:6379> SADD PASSENGER_DETAILS : pancard_no ty2539dy ok3782us rt2947ya ph3719un
+(integer) 5
+127.0.0.1:6379> SADD PASSENGER_DETAILS : drivinglicense_no wibd234 undk235 qscu983 pqag375
+(integer) 5
+127.0.0.1:6379> SADD PASSENGER_DETAILS : aadhar_no 872635201687 989856342698 093476281937 122334658794
+(integer) 5
+127.0.0.1:6379> SADD PASSENGER_DETAILS : passport_no qwsgtd987
+(integer) 2
+127.0.0.1:6379> SADD FLIGHT_DETAILS : name spicejet indico airindia spicejet
+(integer) 5
+127.0.0.1:6379> SADD FLIGHT_DETAILS :number 83652i 36729t tg3675 oy6te5
+(integer) 5
+127.0.0.1:6379> SADD FLIGHT_DETAILS :arrival_time 12pm 4am 5pm 8am
+(integer) 5
+127.0.0.1:6379> SADD FLIGHT_DETAILS : depature_time 3pm 7am 8pm 10am
+(integer) 5
+127.0.0.1:6379> SMEMBERS PASSENGER_DETAILS
+ 1) "093476281937"
+ 2) "facilities"
+ 3) "mumbai"
+ 4) "seat"
+ 5) "35"
+ 6) "2"
+ 7) "rt2947ya"
+ 8) "pulket"
+ 9) "female"
+10) "rahul"
+11) "20"
+12) "ok3782us"
+13) "kavin"
+14) "newyork"
+15) "sex"
+16) "bangalore"
+17) "trichy"
+18) "landing_point"
+19) "drivinglicense_no"
+20) "deepika"
+21) "male"
+22) "50"
+23) "second"
+24) "ending"
+25) "991C"
+26) "starting_point"
+27) "10/03/2023"
+28) "872635201687"
+29) "noneed"
+30) "hyderabad"
+31) "aadhar_no"
+32) "01/03/2023"
+33) "first"
+34) "123F"
+35) "wibd234"
+36) "no"
+37) "siva"
+38) "hydrabed"
+39) "starting"
+40) "pancard_no"
+41) "25"
+42) "dhivya"
+43) "43"
+44) "9538264743"
+45) "20/02/2023"
+46) "pune"
+47) "pqag375"
+48) "undk235"
+49) "9965631866"
+50) "delhi"
+51) "staring_point"
+52) "9836218453"
+53) "A/C"
+54) "seat_no"
+55) "qwsgtd987"
+56) "37"
+57) "food"
+58) "bala"
+59) "kolkata"
+60) "15"
+61) "name"
+62) "business"
+63) "15/02/2023"
+64) "chennai"
+65) "contact_no"
+66) "class"
+67) "NonA/C"
+68) "coimbatore"
+69) ":"
+70) "kaviya"
+71) "qscu983"
+72) "ty2539dy"
+73) "ramya"
+74) "122334658794"
+75) "economy"
+76) "28/02/2023"
+77) "42"
+78) "564G"
+79) "point"
+80) "21"
+81) "ph3719un"
+82) "passport_no"
+83) "age"
+84) "989856342698"
+85) "10/02/2023"
+86) "16"
+87) "third"
+88) "date"
+89) "26"
+90) "calicut"
+91) "9788828814"
+92) "need"
+93) "cochin"
+94) "18"
+127.0.0.1:6379> SMEMBERS FLIGHT_DETAILS
+ 1) "8am"
+ 2) "airindia"
+ 3) "name"
+ 4) "oy6te5"
+ 5) "depature_time"
+ 6) ":number"
+ 7) "36729t"
+ 8) "tg3675"
+ 9) ":arrival_time"
+10) "4am"
+11) "indico"
+12) "spicejet"
+13) "5pm"
+14) "83652i"
+15) "12pm"
+16) "3pm"
+17) "10am"
+18) ":"
+19) "7am"
+20) "8pm"
+127.0.0.1:6379>
