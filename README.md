@@ -1,5 +1,6 @@
 Online Flight tickets booking system application is used to store and manage the details of the passenger such as name,starting_point,landing_point,date,seat_no,class,food,contact_no,pancard_no,drivinglicense_no,aadhar_no,passport_no.
-EX:
+
+Example:
 1. PASSENGER_DETAILS - name,age,sex,starting_point,landing_point,date,seat_no,class,food,contact_no,pancard_no,drivinglicense_no,aadhar_no,passport_no.
 2. FILGHT_DETAILS - name,number,arrival_time,departure_time.
          THE PASSENGER DETAILS ARE:
