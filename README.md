@@ -3,6 +3,7 @@ Online Flight tickets booking system application is used to store and manage the
 Example:
 1. PASSENGER_DETAILS - name,age,sex,starting_point,landing_point,date,seat_no,class,food,contact_no,pancard_no,drivinglicense_no,aadhar_no,passport_no.
 2. FILGHT_DETAILS - name,number,arrival_time,departure_time.
+3. 
          THE PASSENGER DETAILS ARE:
   Name mani devi
   sex male female
@@ -13,6 +14,7 @@ Example:
   class business economy
   passport_no JUBDYHE2534 MACCTSN9834
   drivinglicense_no NDYU763 MSQL280
+  
         THE FLIGHT DETAILS ARE:
   name spicejet indico
   number 98456s i98254
